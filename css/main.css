@@ -1,0 +1,109 @@
+body {
+  font-family: Cambria, Times New Roman, serif ;
+  font-weight: bold;
+}
+
+header, section, footer, hr {
+  width: 960px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+header {
+  height: 80px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+
+/*
+ * A better looking default horizontal rule
+ */
+
+hr {
+  display: block;
+  height: 1px;
+  border: 1px;
+  border-top: 1px dashed #1c05c5;
+  padding: 0;
+}
+
+fieldset {
+  margin: 0;
+  border-color: transparent;
+}
+
+legend {
+  background-color: #bcccae;
+  font-weight: bold;
+  padding: 5px 10px;
+}
+
+p {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+input {
+  padding: 10px 20px;
+  cursor: pointer;
+  border: none;
+  width: 125px;
+
+}
+
+input[type=number]:focus {
+  border: 1px solid #555;
+}
+
+button {
+  background-color: #04AA6D;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  width: 160px;
+}
+
+.sectionContainer {
+  margin-bottom: 25px;
+}
+
+#legendId:active {
+  background-color: #d98817;
+}
+
+.labelId {
+  color: white;
+  font-weight: normal;
+  font-size: 16px;
+  margin-bottom: 25px;
+  height: 135px;
+}
+
+
+#additionContainer {
+  background-color: green;
+}
+#subtractionContainer {
+  background-color: #e58611;
+}
+#multiplicationContainer {
+  background-color: #0ed7de;
+}
+#divisionContainer {
+  background-color: lightslategrey;
+}
+/* {
+  padding: 5px 10px;
+  height: 20px;
+  width: 60px;
+  background-color: #ec05e6;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+

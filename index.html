@@ -1,0 +1,79 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title>Calculate it!</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="apple-touch-icon" href="icon.png">
+  <link rel="stylesheet" type="text/css" href="css/main.css" media="screen">
+</head>
+
+<body>
+<header>
+  <hr class="line">
+   <h1>Calculadora en línea</h1>
+</header>
+<section class="sectionContainer" >
+<button onclick="refreshPage()">Volver a calcular</button>
+  <fieldset id="additionContainer">
+    <legend class="legendId">Suma</legend>
+    <div class="labelId">
+      <label for="numberOneAddition"></label><input type="number" id="numberOneAddition" value=0 maxlength="3">
+      <p>+</p>
+      <label for="numberTwoAddition"></label><input type="number" id="numberTwoAddition" value=0 maxlength="3">
+    </div>
+      <button id="buttonAddition" onclick="addition()">Resultado de la suma</button>
+  </fieldset>
+</section>
+<section class="sectionContainer">
+  <fieldset id="subtractionContainer">
+    <legend class="legendId">Resta</legend>
+    <div class="labelId">
+      <label>
+        <input type="number" id="numberOneSubtraction" value="0" maxlength="3">
+      </label>
+      <p>-</p>
+      <label>
+        <input type="number" id="numberTwoSubtraction" value="0" maxlength="3">
+      </label>
+    </div>
+    <button id="buttonSubtraction" onclick="subtraction()" >Resultado de la resta</button>
+  </fieldset>
+</section>
+<section class="sectionContainer" >
+  <fieldset id="multiplicationContainer">
+    <legend class="legendId">Multiplicación</legend>
+    <div class="labelId">
+      <label>
+        <input type="number" id="numberOneMultiplication" value=0 maxlength=3>
+      </label>
+      <p>x</p>
+      <label>
+        <input type="number" id="numberTwoMultiplication" value="0" maxlength="3">
+      </label>
+    </div>
+    <button id="buttonMultiplication" onclick="multiplication()" >Resultado de la multiplicación</button>
+  </fieldset>
+</section>
+<section class="sectionContainer" >
+  <fieldset id="divisionContainer" >
+    <legend class="legendId">División</legend>
+    <div class="labelId">
+      <label>
+        <input type="number" id="numberOneDivision" value="0" maxlength="3">
+      </label>
+      <p>/</p>
+      <label>
+        <input type="number" id="numberTwoDivision" value="0" maxlength="3">
+      </label>
+    </div>
+    <button id="buttonDivision" onclick="division()" >Resultado de la división</button>
+  </fieldset>
+</section>
+<hr class="line">
+</body>
+<script src="js/main.js"></script>
+
+</html>
